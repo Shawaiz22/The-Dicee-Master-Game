@@ -12,6 +12,7 @@ instead of ladders, there are <b> Assets 💹. The main interesting part of this
 animations, sounds and all the small detailing which i have worked upon, make this game an amazing source of entertainment 🎮 and it engages the user to play it more and
 more 🤩.
 
+ If you like the game, please fill out the feedback form by reaching the game, see screenshot below :
 
 
 # Some ScreenShots from the Game:-
