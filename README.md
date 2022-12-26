@@ -28,7 +28,7 @@ Index Page :-
  Game Rules/ Gameplay Guide :- 
 ![Screenshot 2022-12-26 193525](https://user-images.githubusercontent.com/105994493/209579393-705c593a-83ae-4233-836b-8cf6dbcb67e7.png)
  
- 
+ When a user wins a game :- 
 ![Screenshot 2022-12-26 193448](https://user-images.githubusercontent.com/105994493/209579410-c2fc184d-349e-41f0-9116-cc2da3001043.png)
  
  Responsive according to all screen sizes :- 
