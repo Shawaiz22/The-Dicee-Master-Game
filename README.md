@@ -34,3 +34,11 @@ Index Page :-
  
  Responsive according to all screen sizes :- 
 ![Screenshot 2022-12-26 193355](https://user-images.githubusercontent.com/105994493/209579416-fb1279cc-569a-441f-b28e-58ec4ac39662.png)
+
+# Please fill out this form by clicking here in the game :- 
+
+![Screenshot 2022-12-27 012951](https://user-images.githubusercontent.com/105994493/209580256-7eff841a-9c68-4e57-9a10-b7ecb8f2005e.png)
+
+
+Form :-
+![Screenshot 2022-12-27 013029](https://user-images.githubusercontent.com/105994493/209580278-97de87f7-0477-46d3-9038-72d87c95e2d1.png)
