@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dicee Game! </title>
+    <link rel="stylesheet" href="./css/dicee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/mediaIndex.css">
+    <link rel="icon" type="image/x-icon" href="./assets/dice6.png">
+</head>
+
+<body class="indexBody">
+
+    <div class="indexHeaders">
+    <div class="headingImg" style="display: flex; flex-direction: column;">
+        <div class="headingImgImages" style="display: flex; align-items: center; justify-content: center;">
+        <img src="./assets/dice1.png" alt="" class="logoAnimate">
+        <img src="./assets/heading.png" alt="" class="headImg">
+        <img src="./assets/dice1.png" alt="" class="logoAnimate">
+        </div>
+
+        <div class="subHeadingImg">
+            <img src="./assets/subHeading.png" alt="" class="subHeading">
+        </div>
+
+        
+    </div>
+
+    
+</div>
+
+<div class="topAside">
+    <div class="aside">
+        
+        <div class="leftAside" style="display: flex; flex-direction: column; align-items: center;">
+            
+            <h1 class="welcome"> Welcome to the Dicee Master Game </h1>
+            <h3 class="welcomePlay"> Play alone as well as with your friends, and Enjoyyy 😉!!!</h3>
+            <span class="muterBtn mute" style="color: white; text-align: center; align-self: center;">Tap to mute 🔉</span> 
+        </div>
+        
+
+        <div class="enterButton">
+                <button class="enterBtn"> Enter Game </button>
+            </div>
+
+            <div class="rightAside displayNone">
+
+                <button class="backBtn"> ↩ Back </button>
+
+                <h2 class="type"> Choose Gameplay Type -</h2>
+                
+                <div class="playerButtons">
+                    <div class="noOfPlayers">
+                        <input type="checkbox" name="player1" id="player1"> <b onclick="buttonSoundMaker()"
+                        class="checkBox check1">Single Player</b>
+                        
+                        <input type="checkbox" name="player2" id="player2"> <b class="checkBox check2">Dual Player</b>
+                        
+                    </div>
+                    
+                    <button class="btn2" id="btnGame"><a id="btnGameLink" href=""> Go !!!</a> </button>
+                    
+
+                </div>
+                
+            </div>
+            
+            
+            
+            <div class="enterButton">
+                <button class="hpBtn"> How to play? </button>
+            </div>
+            
+            <div class="howToPlay displayNone" style="overflow: scroll; max-height: 80vh;">
+                
+                <button class="hpBackBtn"
+                style="width: 100px; height: 40px; display: block; margin: auto; margin-bottom: 5px;"> ↩ Go Back
+                </button>
+                
+                <h1> GamePlay Guide </h1>
+
+                <p class="instructions">
+                <h4 class="hpH4">Good to see you here, i hope you will like this game !😀</h4>
+                <br>
+                <h3 style="color: blue;">Consider following points</h3>
+                <li>You will compete with your opponent, either one of your friend (in 2P) mode, or with computer.</li>
+                <li>You will be given a chance to roll your dice and on that basis your score will increase as according
+                    to the number obtained on the dice</li>
+                <li>Gradually, your score will keep on increasing in every pass, you and your opponent will be given
+                    chance to alternately throw the dice</li>
+                <li>But, the special thing here is that, you will be provide two set of values (obstacles) and (assets),
+                    each set will have 5 different values ranging between 1 and 99. If player steps(reaches to the
+                    position) on any point which is inside the obstacle set, his points will be deducted 😐. <br> The
+                    amount of deduction will be equal to the position of that value inside that set. If on position 1
+                    then (score -1) and so on....
+                    <br>
+                    Ex- Assets=[12, 23, 31, 43, 89]
+                    <br>
+                    Lets consider a set of asset values, <br>
+                    Now, if any user steps on position=12, his score(position), will increment by 1
+                    and if on 43, it increment by 4, as according to the value positions(indexes)
+                </li>
+                <li>Similarly, if a user steps on any of the asset values, his score will increment 🤩! incremention
+                    rules will be as similar to the decremention rule!</li>
+                    <li>In this way, in the end the first user which is able to reach till position 100, wins the game! 🤩
+                </li>
+
+                <h4 class="hpH4">So, are you ready to go !!!</h4>
+                <h4 class="hpH4">Good luck, and Enjoyyy !!!! 😉</h4>
+
+                <button class="hpBackBtn"
+                style="width: 100px; height: 40px; display: block; margin: auto; margin-bottom: 5px;"> ↩ Go Back
+                </button>
+                
+        </p>
+        
+    </div>
+    
+    
+    <div class="enterButton">
+        <button class="aboutBtn"> About Me! </button>
+    </div>
+    
+    <!-- muter button  -->
+    <p class="feedPara" style="text-align: center; color: white; margin: 0;"> Click Here to Give us a FeedBack</p>
+    
+    
+    <div class="aboutMe displayNone" style="overflow: scroll; max-height: 85vh;">
+        
+        
+        <div class="aboutMeOne">
+            
+            
+            
+            <div class="dpBox" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+               
+                <button class="aboutBackBtn"
+                    style="width: 100px; height: 40px;  margin-bottom: 5px;"> ↩ Go Back
+                </button>
+                
+                    <div class="dpBorder">
+                        <img src="./assets/myDp.jpg" alt="shawaiz dp" class="dp">
+                    </div>    
+                    CONNECT
+                    <div class="linkBox"
+                    style="display: flex; justify-content: space-around; align-items: center; width: -webkit-fill-available;">
+                    
+                    <a href="https://www.linkedin.com/in/shawaiz-siddiqui-615a271a8/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="blue"
+                                    class="bi bi-linkedin icon" viewBox="0 0 16 16">
+                                    <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                </svg></a>
+
+                                <a href="https://www.github.com/Shawaiz22" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32"
+                                    style="background: white; height:24px; margin-left:2px; margin-top: 9px;"
+                                    class="github">
+                                    <path
+                                    d="M16 0.396c-8.839 0-16 7.167-16 16 0 7.073 4.584 13.068 10.937 15.183 0.803 0.151 1.093-0.344 1.093-0.772 0-0.38-0.009-1.385-0.015-2.719-4.453 0.964-5.391-2.151-5.391-2.151-0.729-1.844-1.781-2.339-1.781-2.339-1.448-0.989 0.115-0.968 0.115-0.968 1.604 0.109 2.448 1.645 2.448 1.645 1.427 2.448 3.744 1.74 4.661 1.328 0.14-1.031 0.557-1.74 1.011-2.135-3.552-0.401-7.287-1.776-7.287-7.907 0-1.751 0.62-3.177 1.645-4.297-0.177-0.401-0.719-2.031 0.141-4.235 0 0 1.339-0.427 4.4 1.641 1.281-0.355 2.641-0.532 4-0.541 1.36 0.009 2.719 0.187 4 0.541 3.043-2.068 4.381-1.641 4.381-1.641 0.859 2.204 0.317 3.833 0.161 4.235 1.015 1.12 1.635 2.547 1.635 4.297 0 6.145-3.74 7.5-7.296 7.891 0.556 0.479 1.077 1.464 1.077 2.959 0 2.14-0.020 3.864-0.020 4.385 0 0.416 0.28 0.916 1.104 0.755 6.4-2.093 10.979-8.093 10.979-15.156 0-8.833-7.161-16-16-16z" />
+                                </svg>
+                            </a>
+                            
+                            <a href="https://www.hackerrank.com/shawaizsidd22" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1.5em" width="1.5em" style="background-color: black; margin-top:9px">
+                                    <path fill="#2FC363"
+                                    d="M11.999 0C10.626 0 2.195 4.818 1.513 6c-.682 1.182-.686 10.819 0 12 .686 1.181 9.115 6 10.486 6 1.371 0 9.8-4.824 10.487-6 .686-1.176.686-10.83 0-12-.687-1.17-9.115-6-10.487-6zm2.841 19.415v.002c-.188 0-1.939-1.677-1.8-1.814.041-.041.296-.069.832-.086 0-1.23.028-3.215.045-4.046.002-.095-.021-.161-.021-.274h-3.787c0 .333-.022 1.697.065 3.416.011.213-.075.279-.272.278-.48-.001-.96-.005-1.44-.004-.194 0-.278-.072-.272-.286.043-1.567.14-3.938-.007-9.969v-.149c-.46-.016-.778-.045-.82-.086C7.225 6.26 9 4.583 9.187 4.583c.187 0 1.951 1.677 1.813 1.814-.041.041-.374.07-.795.086v.148c-.114 1.207-.096 3.731-.124 4.94h3.803c0-.213.018-1.628-.057-3.921-.005-.159.046-.242.199-.244.525-.004 1.049-.006 1.575-.003.164.001.216.081.213.252-.173 8.967-.031 8.341-.031 9.86.42.016.797.045.838.086.136.136-1.593 1.814-1.781 1.814z" />
+                                </svg>
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="aboutMeText">
+                        <h1 class="aboutHead" style="text-align: center;">Hello there, I am Shawaiz! <img src="./assets/handWave.png" alt=""
+                            class="wave"> <br> <span style="font-size: 1.5rem;"> Nice to See you here 😊</span></h1>
+                        Hello there, I'm Shawaiz Siddiqui, from Bhopal (M.P), A computer science engineering
+                        undergraduate. I have a passion towards technology and I possess computer programming and
+                        development skills in various programming languages. This is one of the project which I have
+                        made using HTML, CSS and JavaScript. You can connect with me, on any of my social account, and
+                        if you like my projects, please do give me a feedback, that will be highly appreciated 😊.
+                    </div>
+
+                </div>
+                
+                <div class="aboutMeTwo">
+                    <h1>🎲</h1>
+                    <h2 class="aboutHead" style="text-align: center;">About Dicee Master Game </h2>
+                    The dicee Master Game is a very interesting multiplayer game 🕹. The concept of this game very
+                    unique which i have taken inspiration from a very famous game i.e, Snake and ladders. But here,
+                    instead of snakes, there are <b>Obstacles ⚠</b> and instead of ladders, there are <b> Assets 💹.</b>
+                    <br>
+                    The main interesting part of this game is that I tried to make it very interactive and dynamic 🎲,
+                    all the moving animations, sounds and all the small detailing which i have worked upon, make this
+                    game an amazing source of entertainment 🎮 and it engages the user to play it more and more 🤩.
+                    <br>
+                </div>
+                <br>
+                <h4 style="text-align: center; font-weight: 600; font-size: large;"> I hope that you will enjoy playing this game, and if you do, please give us a feedback below, along
+                    with your name by clicking <button class="formSubmit"> HERE</button></h4>
+                
+                    <br>
+                    <h3> Till then, play and Enjoyyy !!!</h3>
+
+                    <button class="aboutBackBtn"
+                    style="width: 100px; height: 40px;  margin-bottom: 5px; display: block; margin: auto;"> ↩ Go Back
+                </button>
+                
+            </div>
+            
+            
+            <div class="hiddenForm displayNone">
+                
+                <button class="formSubmitBackBtn"
+                    style="width: 100px; height: 40px; display: block; margin: auto; margin-bottom: 5px;"> ↩ Go Back
+                    </button>
+                    
+                    <form name="feedback"  method="post" data-netlify="true">
+                        <input type="text" name="name" id="userName" placeholder="Enter Your Name" required>
+                        <br>
+                    <br>
+                    <textarea name="feedback" id="userFeedBack" cols="30" rows="10" placeholder="Enter Feedback Here" required></textarea>
+                    <br>
+                    <br>
+                    <button type="submit" class="formSubmitBtn"> SEND </button>
+                </form>
+                
+            </div>
+            
+
+            
+            
+        </div>
+    </div>
+
+    <div class="credits">Developed with ❤ By : Shawaiz Siddiqui
+        <br>
+        <a href="https://www.linkedin.com/in/shawaiz-siddiqui-615a271a8/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="blue" class="bi bi-linkedin icon"
+            viewBox="0 0 16 16" style="height: 24px; width: 24px; margin-top: 0px;">
+            <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+        </svg></a>
+
+        <a href="https://www.github.com/Shawaiz22" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32"
+                style="background: white; height:24px; margin-left:2px;" class="github">
+                <path
+                    d="M16 0.396c-8.839 0-16 7.167-16 16 0 7.073 4.584 13.068 10.937 15.183 0.803 0.151 1.093-0.344 1.093-0.772 0-0.38-0.009-1.385-0.015-2.719-4.453 0.964-5.391-2.151-5.391-2.151-0.729-1.844-1.781-2.339-1.781-2.339-1.448-0.989 0.115-0.968 0.115-0.968 1.604 0.109 2.448 1.645 2.448 1.645 1.427 2.448 3.744 1.74 4.661 1.328 0.14-1.031 0.557-1.74 1.011-2.135-3.552-0.401-7.287-1.776-7.287-7.907 0-1.751 0.62-3.177 1.645-4.297-0.177-0.401-0.719-2.031 0.141-4.235 0 0 1.339-0.427 4.4 1.641 1.281-0.355 2.641-0.532 4-0.541 1.36 0.009 2.719 0.187 4 0.541 3.043-2.068 4.381-1.641 4.381-1.641 0.859 2.204 0.317 3.833 0.161 4.235 1.015 1.12 1.635 2.547 1.635 4.297 0 6.145-3.74 7.5-7.296 7.891 0.556 0.479 1.077 1.464 1.077 2.959 0 2.14-0.020 3.864-0.020 4.385 0 0.416 0.28 0.916 1.104 0.755 6.4-2.093 10.979-8.093 10.979-15.156 0-8.833-7.161-16-16-16z" />
+            </svg>
+        </a>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

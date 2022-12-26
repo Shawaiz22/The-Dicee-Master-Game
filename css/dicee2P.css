@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.headBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0.5rem 0 ; */
+    margin-top: 0.5rem;
+}
+
+.heading{
+    /* margin: 10px 0; */
+    height: 3.5rem;
+}
+
+.subHeading1{
+    height: 2rem;
+    margin-left: 3.3rem;
+}
+
+.logoAnimate{
+    animation: none !important;
+    transform: rotate(45deg);
+}
+
+.mainCover{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid white; */
+    width: 100vw;
+    max-width: 100vw;
+}
+
+.outerCover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.cover{
+    width: 30vw;
+    height:fit-content;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dicee{
+    height: 15rem;
+}
+
+.winStatus{
+    text-align: center;
+    /* position: absolute; */
+    margin-top: 8rem;
+}
+
+.gameArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.moveCounter{
+    text-align: center;
+     color:aliceblue;
+     font-weight: 100;
+     font-size: larger;
+}
+
+.movesLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.startAndWinDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.startAndWin{
+    
+    /* position: absolute; */
+    z-index: 1;
+    font-size: 10rem;
+    /* display: block; */
+    /* margin: auto; */
+    /* justify-self: center; */
+    /* left: 30rem; */
+    /* top: 12rem; */
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+.credits{
+    margin: 0 !important;
+    font-size: 1.3rem;
+}
+
+.outerMainCover{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+    justify-content: flex-start;
+}
+
+.scoreAndArray{
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* margin: 0 5rem; */
+    background-color: white;
+}
+
+.obstacles{
+    color:red;
+}
+
+.assets{
+    color:green;
+}
+
+.restart, .exitGame, .playGuide{
+    background: black;
+    border: 2px solid black;
+    color: red;
+    font-size: 0.8rem;
+    margin: 2px 0;
+}
+
+.restart:hover, .exitGame:hover, .playGuide:hover{
+    background: red;
+    color: black;
+    cursor: pointer;
+    margin: 1em;
+    
+}
+
+
+@keyframes buttonAnimate {
+
+    0%{
+        color:white;
+        border:2px solid red;
+    }
+
+    100%{
+        color:black;
+        background-color: red;
+    }
+}
+
+
+h2 .btn{
+    animation: buttonAnimate 1s ease-in-out  infinite ;
+}

@@ -1,0 +1,178 @@
+@media screen and (max-width:1300px){
+    .dicee{
+        height: 11rem;
+    }
+
+    .credits{
+     margin-top: 10rem !important;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .dicee{
+        height: 9rem;
+    }
+}
+
+@media screen and (max-width:800px){
+    .dicee{
+        height: 7rem;
+    }
+
+    h3{
+        font-size: 1.3em;
+        /* padding: 3px; */
+        font-weight: 100;
+    }
+
+    .outerMainCover{
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:700px){
+    
+    html{
+        position: fixed;
+    }
+    
+    
+    body{
+        
+        overflow: hidden !important;
+        /* max-width: 80vw; */
+        /* margin: auto; */
+        /* margin-left: 10rem; */
+    }
+
+    h1{
+            letter-spacing: 2px;
+            letter-spacing: 2px;
+            font-size: 1.5rem;
+        
+    }
+
+
+
+    .btn{
+        font-size: 1rem;
+        width: 4rem;
+    }
+
+
+    .dicee{
+        height: 5rem;
+    }
+
+
+    .logoAnimate{
+        height: 24px;
+    }
+
+    .head1{
+        display: flex;
+        /* width: 25rem; */
+        margin-top: 3.1rem;
+    }
+
+    .heading{
+        height: 2rem;
+        margin: 0 !important;
+    }
+    
+    .subHeading1{
+        height: 1.2rem;
+        margin-left: 2.2rem;
+    }
+
+    .headBox{
+        /* margin-left: 3em; */
+    }
+
+
+    .movesLeft{
+        /* margin-top: -14rem */
+    }
+
+    .credits{
+        /* margin-left: 2em !important; */
+        margin-top: 16rem;
+    }
+
+    .scoreAndArray{
+        flex-direction: column;
+    }
+
+
+}
+
+
+@media screen and (max-width:600px){
+
+    .score1,.score2{
+    font-size: 1.3em;
+    }
+}
+
+
+@media screen and (max-width:400px){
+
+    .score1,.score2{
+    font-size: 1.1em;
+    }
+}
+
+
+@media screen and (max-height:840px)and (max-width:1300px) {
+    .credits {
+        margin-top: 7rem !important;
+    }
+}
+
+
+@media screen and (max-height:800px)and (max-width:700px){
+    .credits {
+        margin-top: 5rem !important;
+    }
+}
+
+
+@media screen and (max-height:750px)and (max-width:700px){
+    .credits {
+        margin-top: 3rem !important;
+    }
+
+    .outerMainCover{
+        margin-top: 1rem;
+    }
+}
+
+
+@media screen and (max-height:670px){
+    .credits {
+        margin-top: 0 !important;
+    }
+
+    
+}
+
+    @media screen and (max-height:600px) and (max-width:1100px){
+        .credits {
+            margin-top: -2rem !important;
+        }
+
+        .outerMainCover{
+            /* margin-top: -3rem; */
+            
+        }
+
+        h3{
+            font-size: 1.3em;
+            /* padding: 3px; */
+            font-weight: 100;
+        }
+
+        .dicee{
+            height: 7rem;
+        }
+}

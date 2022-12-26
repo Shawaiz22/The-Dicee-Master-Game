@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+Bhai+2&family=Bitter:ital,wght@1,100&family=DM+Serif+Display&family=Fira+Sans+Condensed:wght@300&family=Kanit:wght@300&family=Nothing+You+Could+Do&family=Teko:wght@500&display=swap');
+
+
+@keyframes buttonAnimate {
+
+    0%{
+        color:white;
+        border:2px solid red;
+    }
+
+    100%{
+        color:black;
+        background-color: red;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover{
+    
+    max-width: 50vw;
+    margin: 0rem auto;
+    border: 2px solid green;
+    background: linear-gradient(green,white);
+    height: 78vh;
+}
+
+.btn{
+    font-family: 'Teko';
+    color:white;
+    background-color: transparent;
+    border: 2px solid red;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+h2 .btn{
+    animation: buttonAnimate 1s ease-in-out  infinite ;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: red;
+    
+}
+
+body{
+    /* background-color: rgb(56, 56, 56); */
+    font-family: 'Teko';
+    background: linear-gradient(red,black);
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+h1{ 
+    /* margin: 10px; */
+    text-align: center;
+    color:black;
+    font-size: 2.5rem;
+}
+
+h2{
+    margin: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(101, 101, 206);
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.p{
+    color: yellow;
+    padding: 20px;
+}
+
+.gameBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.players{
+    /* margin-top: 3rem; */
+    width: 80vw;
+    font-weight: bold;
+    font-size:x-large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}
+
+.dicee{
+    margin: 0 1rem; 
+    height: 15rem;
+}
+
+.pw{
+    margin: 10px;
+    padding: 10px;
+    
+    font-size: x-large;
+}
+
+.credits{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    /* margin-top: -75px; */
+}
+
+.icon{
+    margin-top: 10px;
+}
+
+.logoAnimate{
+    -webkit-animation:spin 1.5s linear ;
+    -moz-animation:spin 1.5s linear ;
+    animation:spin 1.5s linear;
+    animation-iteration-count: infinite;
+}
+
+
+.imgBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0 ;
+}
+
+.headImg{
+    /* margin: 10px 0; */
+    height: 3.5rem;
+}
+
+.subHeadImg{
+    height: 2rem;
+    margin-left: 3.3rem;
+}
+
+.logoAnimate1{
+    animation: none !important;
+    transform: rotate(45deg);
+    height: 50px;
+    margin: 0 1.5rem;
+}
+
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+.dicee-animate{
+
+    -webkit-animation:spin 0.3s linear ;
+    -moz-animation:spin 0.3s linear ;
+    animation:spin 0.3s linear;
+}

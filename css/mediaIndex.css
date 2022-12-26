@@ -1,0 +1,185 @@
+@media screen and (max-width:800px){
+
+    html{
+        position: fixed;
+    }
+
+    .headImg {
+        height: 4rem;
+    }
+
+    .subHeading {
+        height: 2em;
+    }
+
+
+}
+
+@media screen and (max-width:1000px){
+
+.aboutMe {
+    justify-content: center;
+}
+
+.aboutMeOne {
+    
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.aboutMeTwo {
+    width: 100%;
+    margin-top: 0;
+}
+
+}
+
+@media screen and (max-width:600px){
+
+
+    .subHeading {
+        margin: 0;
+        height: 1.5rem;
+    }
+
+    .logoAnimate{
+        height: 35px ;
+    }
+
+
+    .headImg{
+        height: 3rem;
+    }
+
+    .welcome{
+        font-size: 2rem;
+    }
+
+    .welcomePlay{
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width:450px){
+    
+    .subHeading {
+        height: 1.2rem;
+    }
+
+    .logoAnimate{
+        height: 25px ;
+    }
+
+
+    .headImg{
+        height: 2.2rem;
+    }
+
+}
+
+@media screen and (max-width:350px){
+    
+    .subHeading {
+        height: 1rem;
+    }
+
+    .logoAnimate{
+        height: 25px ;
+    }
+
+
+    .headImg{
+        height: 2rem;
+    }
+
+}
+
+@media screen and (max-width:300px){
+    
+    .subHeading {
+        height: 0.8rem;
+    }
+
+    .logoAnimate{
+        height: 20px ;
+    }
+
+
+    .headImg{
+        height: 1.5rem;
+    }
+
+}
+
+@media screen and (max-height:760px) and (max-width:1000px){
+
+    .headingImg{
+        margin-top: 1rem;
+    }
+}
+
+
+@media screen and (min-height:1370px){
+
+    .indexBody{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-height:700px) and (max-width:1000px){
+
+    .headingImg{
+        margin-top: 0;
+    }
+
+    .credits{
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (max-height:601px) and (max-width:1100px){
+
+    .headingImg{
+        margin-top: 0;
+    }
+
+    .headImg{
+        margin-top: 0;
+        height: 3.5rem;
+    }
+
+    .subHeading{
+        height: 1.5rem;
+    }
+}
+
+
+@media screen and (max-height:1200px) and (max-width:900px){
+
+    .aboutMeOne{
+        margin-top: 13rem;
+    }
+}
+
+
+@media screen and (max-height:950px) and (max-width:800px){
+    
+    .aboutMeOne{
+        margin-top: 40rem;
+    }
+}
+
+@media screen and (max-height:700px) and (max-width:300px){
+
+    .aboutMeOne{
+        margin-top: 80rem !important;
+    }
+}
+
+@media screen and (max-height:750px) and (max-width:800px){
+
+    .aboutMeOne{
+        margin-top: 55rem;
+    }
+}
