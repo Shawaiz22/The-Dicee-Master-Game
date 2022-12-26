@@ -1,0 +1,2 @@
+# The-Dicee-Master-Game
+ You Can Play the Hosted Game at : (https://dicee-master-game.netlify.app/)  Dicee Master is an amazing dice game, having amazing visuals which gives players, an amazing Experience. It is developed using HTML, CSS and Javascript. It has 2 play modes, single player and multiplayer which allows you to play with your friends as well. It is an amazing game and it is really fun to play this. It has a really unique concept and thus it makes this game so interesting. You can go through this and can play and Enjoyyy!!!
